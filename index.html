@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+</head>
+
+<body>
+    <div id="shop-content">
+        <header class="navbar">
+            <h1>Welcome to our charity shop</h1>
+            <nav>
+                <button id="checkout-btn" class="btn btn-dark position-relative">
+                    <i class="bi bi-cart-plus me-2"></i>
+                    Checkout
+                    <!-- https://getbootstrap.com/docs/5.3/components/badge/ -->
+                    <span id="cart-count"
+                        class="cart-count position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                        style="display: none">
+                        0
+                    </span>
+                </button>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <!-- https://getbootstrap.com/docs/4.0/layout/grid/ -->
+                <div class="container">
+                    <div class="row">
+                        <!-- https://getbootstrap.com/docs/4.0/components/card/ -->
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <div class="card">
+                                <img class="card-img-top" src="img/cat_bag.jpg" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Cat bag</h5>
+                                    <p class="card-text">Beautiful cat bag</p>
+                                    <p class="price">25€</p>
+                                    <button type="button" class="btn btn-dark add-to-cart">
+                                        Add to cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <div class="card">
+                                <img class="card-img-top" src="img/cat_calendar.jpg" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Cat calender</h5>
+                                    <p class="card-text">Nice cat calender</p>
+                                    <p class="price">12€</p>
+                                    <button type="button" class="btn btn-dark add-to-cart">
+                                        Add to cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <div class="card">
+                                <img class="card-img-top" src="img/cat_card.jpg" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Cat card</h5>
+                                    <p class="card-text">Cute cat card</p>
+                                    <p class="price">2€</p>
+                                    <button type="button" class="btn btn-dark add-to-cart">
+                                        Add to cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <div class="card">
+                                <img class="card-img-top" src="img/cat_goodies.jpg" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Cat snacks</h5>
+                                    <p class="card-text">Yummy cat snacks</p>
+                                    <p class="price">5€</p>
+                                    <button type="button" class="btn btn-dark add-to-cart">
+                                        Add to cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <div class="card">
+                                <img class="card-img-top" src="img/cat_grass.jpg" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Cat grass</h5>
+                                    <p class="card-text">Addictive cat grass</p>
+                                    <p class="price">5€</p>
+                                    <button type="button" class="btn btn-dark add-to-cart">
+                                        Add to cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <div class="card">
+                                <img class="card-img-top" src="img/cat_pillow.jpg" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Cat pillow</h5>
+                                    <p class="card-text">Cozy cat pillow</p>
+                                    <p class="price">15€</p>
+                                    <button type="button" class="btn btn-dark add-to-cart">
+                                        Add to cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <div class="card">
+                                <img class="card-img-top" src="img/cat_shirt.jpg" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Cat t-shirt</h5>
+                                    <p class="card-text">Cool cat t-shirt</p>
+                                    <p class="price">35€</p>
+                                    <button type="button" class="btn btn-dark add-to-cart">
+                                        Add to cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <div class="card">
+                                <img class="card-img-top" src="img/cat_toy.jpg" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Cat toy</h5>
+                                    <p class="card-text">Awesome cat toy</p>
+                                    <p class="price">10€</p>
+                                    <button type="button" class="btn btn-dark add-to-cart">
+                                        Add to cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <div class="card">
+                                <img class="card-img-top" src="img/cat_tree.jpg" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Cat tree</h5>
+                                    <p class="card-text">Beautiful cat tree</p>
+                                    <p class="price">55€</p>
+                                    <button type="button" class="btn btn-dark add-to-cart">
+                                        Add to cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <div class="card">
+                                <img class="card-img-top" src="img/food_bowl.jpg" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Cat bowl</h5>
+                                    <p class="card-text">Stylish cat bowl</p>
+                                    <p class="price">7€</p>
+                                    <button type="button" class="btn btn-dark add-to-cart">
+                                        Add to cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+    <!-- https://getbootstrap.com/docs/4.0/components/forms/ -->
+    <!-- https://getbootstrap.com/docs/5.0/layout/gutters/ -->
+    <div id="checkout-form" style="display: none">
+        <form id="form1" class="mx-auto p-4">
+            <h1 class="mb-4 text-center">Shipping Address</h1>
+            <div class="row mb-3">
+                <div class="col">
+                    <label class="form-label">First Name</label>
+                    <input class="form-control" type="text" placeholder="First name" />
+                </div>
+                <div class="col">
+                    <label class="form-label">Last Name</label>
+                    <input class="form-control" type="text" placeholder="Last name" />
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Company (optional)</label>
+                <input class="form-control" type="text" placeholder="Company" />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Address</label>
+                <input class="form-control mb-2" type="text" placeholder="Street Address" />
+                <input class="form-control" type="text" placeholder="Apartment, suite, etc. (optional)" />
+            </div>
+            <div class="row mb-3 g-2">
+                <div class="col-md-4">
+                    <label class="form-label">City</label>
+                    <input class="form-control" type="text" placeholder="City" />
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label">Country/Region</label>
+                    <select class="form-select">
+                        <option>Austria</option>
+                        <option>Switzerland</option>
+                        <option>Germany</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">State</label>
+                    <input class="form-control" type="text" placeholder="State" />
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">ZIP-Code</label>
+                    <input class="form-control" type="text" placeholder="ZIP" />
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Phone (optional)</label>
+                <input class="form-control" type="text" placeholder="Phone" />
+            </div>
+            <div class="text-center">
+                <button id="continue-shipping-btn" type="submit" class="btn btn-primary w-100">
+                    Continue to shipping
+                </button>
+            </div>
+        </form>
+    </div>
+    <!--  After Checkout summary -->
+    <div id="conformation-details" style="display: none;">
+        <div class="container">
+            <h2>Purchase Details</h2>
+            <div class="row">
+                <div class="col-6" id="cart-items">Product</div>
+                <div class="col-6" id="cart-prices">Price</div>
+            </div>
+            <div class="row">
+        <div class="col-6">Subsum</div>
+        <div class="col-6 text-end" id="subtotal"></div>
+
+        <div class="col-6">Tax (20%)</div>
+        <div class="col-6 text-end" id="tax"></div>
+
+        <div class="col-6">Discount (10%) if more than 3 items are orderes</div>
+        <div class="col-6 text-end" id="discount"></div>
+
+        <!-- https://getbootstrap.com/docs/5.0/utilities/text/ -->
+        <div class="col-6 fw-bold mt-2">Total</div>
+        <div class="col-6 text-end fw-bold mt-2" id="total"></div>
+    </div>
+        </div>
+    </div>
+    <footer>
+        <p>Created by Christopher Schwarz</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js" defer></script>
+</body>
+
+</html>
